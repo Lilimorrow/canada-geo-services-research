@@ -1,0 +1,515 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Geospatial Canadian Disaster Database</name>
+    <description>The Canadian Disaster Database contains detailed disaster information on natural, technological and conflict events (excluding war) that have directly affected Canadians since 1900</description>
+    <Style id="AA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/AA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AI">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/AI.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AR">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/AR.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AV">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/AV.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="CD">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/CD.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="CE">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/CE.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="CR">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/CR.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="DR">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/DR.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EI">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/EI.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EP">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/EP.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EQ">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/EQ.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ER">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ER.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FE">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/FE.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FI">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/FI.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FL">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/FL.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FV">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/FV.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="GS">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/GS.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HE">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HE.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HM">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HM.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HR">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HR.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HU">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HU.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HV">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/HV.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IC">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IC.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IE">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IE.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IM">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IM.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IN">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IN.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IT">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IT.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="IW">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/IW.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="LS">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/LS.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="MA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/MA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="PA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/PA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="RA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/RA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="SD">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/SD.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="SL">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/SL.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="SO">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/SO.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="SS">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/SS.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ST">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ST.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="SW">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/SW.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TB">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TB.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TC">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TC.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TF">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TF.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TH">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TH.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TK">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TK.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TN">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TN.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TO">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TO.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TR.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TS">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TS.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TT">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/TT.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VA">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/VA.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VE">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/VE.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VO">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/VO.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="WF">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/WF.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ZD">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ZD.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ZF">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ZF.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ZL">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ZL.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ZM">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ZM.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ZV">
+      <IconStyle>
+        <Icon>
+          <href>http://cdd.publicsafety.gc.ca/images/symbols/ZV.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Southern New Brunswick</name>
+      <description>Southern New Brunswick, August 19, 1991. 2 deaths; Hurricane Bob hit southern New Brunswick with winds gusting to 100 km/h after leaving a trail of destruction through the U.S. Cape Cod region.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-67,46</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Edmundston NB</name>
+      <description>Edmundston and Saint-Jacques NB, August 13-14, 2004. Tropical storm Bonnie produced significant heavy rain throughout New Brunswick. Edmundston and Saint-Jacques were both hard hit by the torrential rain. There was localised flooding, basement flooding and road closures in Edmundston and Saint-Jacques. The community of Saint-Jacques was put on a boil water advisory due to well contamination that resulted from the flooding. Edmundston recieved up to 90 mm of rain, while 50.9 mm and 65.4 mm was reported in Fredricton and St. Stephen. Flooded roads created dangerous driving conditions for local residents. One individual was killed while driving a truck across a shallow stream.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-68.2943999,47.3772</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Saint John NB</name>
+      <description>Saint John NB, September 7, 2008. Tropical storm Hanna soaked already waterlogged communities in the Maritime provinces on September 7. By the time it reached Atlantic Canada, Hanna was downgraded to a Post-Tropical storm, but remained at gale strength throughout its track along the Fundy coast of Nova Scotia, through eastern Prince Edward Island, northern Cape Breton and southern Newfoundland. The storm produced 80 km/h wind gusts and heavy rain. Saint John was hard hit by 146 mm of rain. Dozens of roads in Saint John were flooded and closed, including parts of the Southern New Brunswick Railway. Scattered power outages were also reported in New Brunswick and Nova Scotia.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-66.0389,45.2592</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : New Brunswick and Nova Scotia</name>
+      <description>New Brunswick and Nova Scotia, November 4, 2007. Wind gusts of up to 135 km/h from post-tropical storm Noel lashed the Maritimes, knocking out power to an estimated 190,000 homes and businesses across the region, while pounding surf and heavy rain washed out roads in some coastal areas.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-68.27,47.86</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Maritime Provinces</name>
+      <description>Maritime Provinces, September 28, 2008. Tropical storm Kyle, made landfall with Atlantic Canada between the Yarmouth and Digby counties in western Nova Scotia at 21:30 ADT on September 28. Kyle covered more than 1000 kilometres as it moved north-northeast from the United States before reaching Canada as a Category 1 storm with wind gusts of 120 km/h. The storm brought heavy rain to New Brunswick and Quebec, with parts of New Brunswick receiving up to 72 mm of rain. Power outages were reported in all three Maritime provinces. Nova Scotia had over 40,000 customers (approximately 120,000 individuals) lost power. The storm also produced an estimated storm surge of 80 cm.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-68.3,47.34</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : New Brunswick</name>
+      <description>New Brunswick, September 11-13, 1954. Hurricane "Edna" caused severe damage and flooding.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-66.429,46.57</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Maritime Provinces</name>
+      <description>Maritime Provinces, June 20, 1959. 33 people, mostly lobster fishermen, were killed as hurricane gales, reaching 120 km/h, swept across the Maritimes; caused considerable property damage. Twenty-two fishing boats were destroyed off Escuminac.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-64,46</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Maritime Provinces</name>
+      <description>Maritime Provinces, October 21, 1968. Remnants of Hurricane "Gladys" passed over Cape Breton Island, killing one person and producing rainfall of 45-90 mm; the storm caused flooding in New Brunswick and Nova Scotia.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-64,46</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : New Brunswick and Quebec</name>
+      <description>New Brunswick and Quebec, August 10-11, 1976.  Hurricane Belle.  A hurricane warning was issued on Aug. 9.  Rainfall accumulation was 178 mm in a 3 day period, causing extensive damage. There were reports of flooded basements, damage to sewage disposal facilities, washed out roads and culverts. On Aug. 11 Saint John River rose to 4.9 m at Fredericton and 4.3 m at Maugerville. Approximately 13 areas were affected in QC including Notre-Dame-du-Lac and Sherbrooke.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-67,47</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : New Brunswick</name>
+      <description>New Brunswick, September 6-7, 1979. Tropical storm "David". Hall's Creek area of Moncton, New Brunswick was affected.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-66.429,46.57</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Quebec, New Brunswick, Nova Scotia, Prince Eward Island, and Newfoundland and Labrador</name>
+      <description>Quebec, New Brunswick, Nova Scotia, Prince Edward Island and Newfoundland and Labrador, August 28-30, 2011. Hurricane Irene, the storm that caused over 40 deaths and billions of dollars in damages in the United States, moved north into Canada affecting parts of Quebec and the Maritime provinces. The 400 kilometre-wide Post-Tropical storm produced heavy rain and strong gusts of wind, which downed trees and power lines. Parts of Quebec received more than 100 mm of rain and wind gusts of up to 113 km/h. On August 28, Hydro-Quebec reported approximately 250,000 customers (750,000 individuals) without power and by August 29, only 80,000 households were without power. The storm was responsible for two deaths in Quebec; one man died while attempting to reach his family in the storm, while another went missing and is presumed dead when his car was washed down river. Approximately 350 residents were evacuated in Quebec. Strong winds produced six-metre waves over western Maritime waters. Some parts of Labrador received up to 40 mm of rain overnight, while Doaktown and Fredricton New Brunswick received 89 mm and 53 mm respectively. Approximately 50,000 households (150,000 individuals) in New Brunswick and 8000 (24,000 individuals) households in Nova Scotia were without power during the height of the storm.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-66.3833333,50.1999999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hurricane / Typhoon / Tropical Storm : Quebec, New Brunswick, Nova Scotia, and Prince Edward Island</name>
+      <description>Quebec, New Brunswick, Nova Scotia, and Prince Edward Island, July 5-6, 2014. Hurricane Arthur transformed into a powerful Post-Tropical storm over the Maritime provinces. The storm brought powerful wind gusts and heavy rain to Quebec, New Brunswick, Nova Scotia and Prince Edward Island. The most amount of rain was received in St. Stephen, New Brunswick where it rained up to 143 mm. The strongest winds were felt in Nova Scotia where in Greenwood wind gusts reached up to 140 km/h. In Quebec, severe flooding in Mont-Louis inundated several roads affecting 40 homes, while in Marsoui approximately 30 homes were evacuated (approximately 90 individuals). The powerful winds generated by the storm downed trees and power lines throughout the Maritimes causing power outages, property damage and infrastructure damage. Approximately 290,000 homes and businesses (870,000 individuals) in the Maritimes were without power, while in Quebec approximately 23,000 homes and businesses (69,000 individuals) were reported to have lost power.</description>
+      <styleUrl>#HU</styleUrl>
+      <Point>
+        <coordinates>-66.72409,45.9879</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
