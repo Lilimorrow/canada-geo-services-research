@@ -1,3 +1,3 @@
 # use case:
-- hurricane fiona
-- location: Nova Scotia
+- Variopus hgeat waves, droughts, and wildfires
+- location: Alberta
