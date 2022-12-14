@@ -1,3 +1,3 @@
 # use case:
-- Variopus hgeat waves, droughts, and wildfires
+- Various heat waves, droughts, and wildfires
 - location: Alberta
